@@ -1,0 +1,35 @@
+body {
+  margin: 10px;
+}
+
+.glyphicon-move {
+  cursor: move;
+  cursor: -webkit-grabbing;
+}
+
+.my-handle {
+  cursor: move;
+  cursor: -webkit-grabbing;
+}
+
+.jobsample {
+   
+    width:75%; 
+    border:solid black;
+    border-width: 1px;
+    padding: 1em;
+    margin: auto;   
+}
+
+#jobName {
+ 
+    margin: 15px;
+
+}
+
+#jobMatchPercent
+{
+    
+    float:right;
+    margin-right: 15px;
+}
