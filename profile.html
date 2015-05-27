@@ -31,6 +31,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
       
+      <!-- Latest Sortable -->
+  <script src="http://rubaxa.github.io/Sortable/Sortable.js"></script>
+      
        <!-- Custom styles for this template -->
     <link href="css/starter-template.css" rel="stylesheet">
 
@@ -52,12 +55,12 @@
             <span class="icon-bar"></span>
           </button>
             
-          <a class="navbar-brand" href="index.html">Vitae</a>
+          <a class="navbar-brand" href="home.html">Vitae</a>
         </div>
         
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active"><a href="home.html">Home</a></li>
             <li><a href="browsejobs.html">Browse Jobs</a></li>
             <li><a href="employers.html">Employers</a></li>
             <li><a href="profile.html">Profile</a></li>
@@ -70,6 +73,8 @@
     
         
 <br>
+          
+    <div class = "col-md-6 col-lg-6 col-xs-12">
     <h4>Sort your skills</h4>
     <!-- THIS IS THE SKILLS SORT ORDER LIST HTML -->
     <div id = "SkillsSortOrderList">
@@ -87,7 +92,7 @@
         <div class="list-group-item">AI</div>
         <div class="list-group-item">Game Programming</div>
         </div>
-        
+    </div>
         <script>
     // Simple list
     
@@ -95,6 +100,7 @@
     Sortable.create(simpleSkillList, { /* options */ });
 </script>
     </div>
+ <div class = "col-md-6 col-lg-6 col-xs-12">
     <h4>Sort your Work Habits</h4>
         <!-- THIS IS THE CULTURE SORT ORDER LIST HTML -->
     <div id = "CultureSortOrderList">
@@ -115,7 +121,7 @@
         <div class="list-group-item">Team Leader</div>
         <div class="list-group-item">Team Member</div>
         </div>
-        
+     </div>
         <script>
     // Simple list
 
