@@ -57,3 +57,8 @@ body {
 .navbar-custom .navbar-brand {
     color:#eeeeee;
 }
+
+.companyCreate {
+	text-align: right;
+	padding-top: 1em;
+}
